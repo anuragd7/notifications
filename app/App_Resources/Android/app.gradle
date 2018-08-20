@@ -1,0 +1,18 @@
+// Add your native dependencies here:
+
+// Uncomment to add recyclerview-v7 dependency
+//dependencies {
+//	compile 'com.android.support:recyclerview-v7:+'
+//}
+
+android {  
+  compileSdkVersion 27
+  buildToolsVersion '27.0.3'
+  defaultConfig {  
+    generatedDensities = []
+    applicationId = "org.nativescript.messaging"  
+  }  
+  aaptOptions {  
+    additionalParameters "--no-version-vectors"  
+  }  
+} 
